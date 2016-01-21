@@ -1,4 +1,4 @@
-FROM garethjevans/jenkinsslave:v1.0
+FROM garethjevans/jenkinsslave:v1.1
 
 ENV CFCLI http://go-cli.s3-website-us-east-1.amazonaws.com/releases/latest/cf-cli_amd64.deb
 
