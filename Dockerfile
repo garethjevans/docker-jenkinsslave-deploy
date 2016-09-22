@@ -1,6 +1,6 @@
 FROM garethjevans/jenkinsslave:v1.1.5
 
-ENV CFCLI http://go-cli.s3-website-us-east-1.amazonaws.com/releases/latest/cf-cli_amd64.deb
+ENV CFCLI https://cli.run.pivotal.io/stable?release=debian64&source=github
 
 RUN wget --quiet ${CFCLI} -O /tmp/cf-cli_amd64.deb && \
 	dpkg -i /tmp/cf-cli_amd64.deb && \ 
