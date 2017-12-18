@@ -1,4 +1,4 @@
-FROM garethjevans/jenkinsslave-ubuntu:v1.6
+FROM garethjevans/jenkinsslave-ubuntu:v2.0-pre2
 
 ENV CFCLI https://cli.run.pivotal.io/stable?release=debian64&source=github
 
